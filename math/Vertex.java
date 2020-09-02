@@ -51,7 +51,8 @@ public class Vertex
 
     public String getFormatedString()
     {
-        return "{FIX16(" + x + "), FIX16(" + y + "), FIX16(" + z + ")},";
+        //return x + "\t" + y + "\t" + z;
+        return z + "\t" + (-x) + "\t" + (-y);
     }
 
     public String getRawString()
